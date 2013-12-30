@@ -1,0 +1,36 @@
+---
+layout: default
+grouptype: category
+---
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="../../assets/js/lightbox-2.6.min.js"></script>
+<link href="../../assets/css/lightbox.css" rel="stylesheet" />
+<div class="gray-box">
+    <p><strong>{{ page.category }}</strong></p>
+</div>
+<div class="entry-content">
+	{% if page.category == "Lamp Posts" %}
+		
+	{% endif %}
+
+	{% if page.category == "Gazebo" %}
+		
+	{% endif %}
+
+	{% if page.category == "Lamp Posts" %}
+		
+	{% endif %}
+
+	<div class="prodmain">
+	{% for post in site.posts %}{% if post.category == page.category %}
+	  <div class="prodcat">
+	    <a class="prodimg" href="../../assets/img/{{ post.image }}" data-lightbox="prodimg" title="{{ post.title }}">
+	      <img src="../../assets/img/thumbs/{{ post.image }}">
+	    </a>
+	    <div class="prodimgcaption">
+	      {{ post.title }}
+	    </div>
+	  </div>
+	{% endif %}{% endfor %}
+	</div>
+</div>

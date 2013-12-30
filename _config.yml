@@ -1,0 +1,17 @@
+source: .
+destination: ../raj-inds-amd/
+
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: individual-posts/:categories/:title/
+paginate: 5
+
+title: Raj Industries Ahmedabad
+author: Aziz H K
+email: aziz.h.khambati@gmail.com
+description: Quality Ornamental Cast Iron Grills
+url: http://rajindustriesamd.com
+
+keep_files:  ['.git','.svn', 'README.md', '.nojekyll', '.gitignore', '404.html', 'LICENSE.md']
+exclude: ["README.md", 'Build.bat', 'temp', 'styles2.css', '404.html', 'LICENSE.md', 'original']

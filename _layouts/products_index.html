@@ -1,0 +1,15 @@
+---
+layout: default
+grouptype: category_all
+---
+<div class="gray-box">
+    <p><strong>Our Products</strong></p>
+</div>
+
+<ul>
+{% for pair in page.pairs %}
+  <li>
+    <a href="{{ pair[1] }}/" title="{{ pair[0] }}">{{ pair[0] }}</a>
+  </li>
+{% endfor %}
+</ul>
