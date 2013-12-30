@@ -8,8 +8,9 @@
 }
 
 #slider, #slider div.sliderInner {
-    width:640px;
+    max-width:640px;
     height:480px;/* Must be the same size as the slider images */
+    background-position: center center !important;
 }
 
 #slider {
