@@ -5,22 +5,17 @@ grouptype: category
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script type="text/javascript" src="../../assets/js/lightbox-2.6.min.js"></script>
 <link href="../../assets/css/lightbox.css" rel="stylesheet" />
-<div class="gray-box">
-    <p><strong>{{ page.category }}</strong></p>
-</div>
-<div class="entry-content">
-	{% if page.category == "Lamp Posts" %}
-		
+<article class="page hentry">
+  <header class="entry-header">
+    <h1 class="entry-title">{{ page.category }}</h1>
+  </header>
+  <div class="entry-content">
+  	{% if page.category == "Lamp Posts" %}
+  		<p>Suitable for lawns or any landscaping projects, our Lamp Posts can be customized to any heights ranging from four feet tall to a staggering twenty feet high,  with a option of zero, single, double or triple brackets as shown in the following sample pics.</p>
+  		<p>Also, we can incorporate logos, designs or themes in these lamp post to create a unique and elegant touch to your landscaping projects.</p>
+	{% elsif page.category == "Garden Furniture" %}
+		<p>Our products, made with tedious quality control checks, are extreme weather resistant, and are able to withstand severe, heat and harsh rainy climates, with little maintenance required every few years. Our products are guaranteed to last for 70-80 years.</p>
 	{% endif %}
-
-	{% if page.category == "Gazebo" %}
-		
-	{% endif %}
-
-	{% if page.category == "Lamp Posts" %}
-		
-	{% endif %}
-
 	<div class="prodmain">
 	{% for post in site.posts %}{% if post.category == page.category %}
 	  <div class="prodcat">
@@ -33,4 +28,5 @@ grouptype: category
 	  </div>
 	{% endif %}{% endfor %}
 	</div>
-</div>
+  </div>
+</article>

@@ -18,6 +18,6 @@ Our clients include:
 * Arc. Devendrabhai Shah- Ahmedabad
 * Victoria Ventures(Agashiye) – Ahmedabad <http://www.houseofmg.com/agashiye.php>
 * Arc. Kamal Mangaldas – Ahmedabad
-* Dynamic Prestress -http://www.dynamicprestress.com/
+* Dynamic Prestress - <http://www.dynamicprestress.com/>
 
 And many more
