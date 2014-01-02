@@ -1,6 +1,6 @@
 ---
 title: Garden Furniture - 1
-category: Garden Furniture
-image: garden-furniture/f.jpg
+category: Indoor Furniture
+image: indoor-furniture/f.jpg
 ---
 
