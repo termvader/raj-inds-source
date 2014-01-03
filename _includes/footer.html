@@ -1,4 +1,14 @@
         </div>
+        <div class="secondary">
+          <h2>Our Products</h2>
+          <ul>
+            {% for category in site.categories %}
+              <li>
+                <a href="{{ relative }}products/{{ category[0] | downcase | replace: ' ', '-' }}" title="{{ category[0] | capitalize }}">{{ category[0] | capitalize }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
       <footer class="site-footer" role="contentinfo">
         <div>
@@ -11,15 +21,5 @@
         <div>
       </footer>
     </div>
-    <script type="text/javascript">
-      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-      /*try {
-        var pageTracker = _gat._getTracker("UA-43045490-1");
-        pageTracker._trackPageview();
-      } catch(err) {}*/
-    </script>
   </body>
 </html>

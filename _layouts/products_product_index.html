@@ -15,6 +15,8 @@ grouptype: category
   		<p>Also, we can incorporate logos, designs or themes in these lamp post to create a unique and elegant touch to your landscaping projects.</p>
 	{% elsif page.category == "Garden Furniture" %}
 		<p>Our products, made with tedious quality control checks, are extreme weather resistant, and are able to withstand severe, heat and harsh rainy climates, with little maintenance required every few years. Our products are guaranteed to last for 70-80 years.</p>
+	{% elsif page.category == "Gazebo" %}
+		<p>These structures, which add a scenic marvel to your garden or landscapes, can be created based on Square, Pentagonal, Hexagonal or Octagonal designs. We expertise in creating a re-fittable design, so as to easily transport, making it easy to export it overseas.</p>
 	{% endif %}
 	<div class="prodmain">
 	{% for post in site.posts %}{% if post.category == page.category %}
