@@ -261,7 +261,7 @@ p,ul,ol,dd,hr,address,table,.red-box,.yellow-box,.green-box,pre,.gray-box,.highl
 
 
 .primary {
-	padding: 3% 4% 12% 6%;
+	padding: 4% 4% 12% 6%;
 	width: 70%;
 }
 
@@ -274,13 +274,13 @@ p,ul,ol,dd,hr,address,table,.red-box,.yellow-box,.green-box,pre,.gray-box,.highl
 
 @media (max-width:959px) {
 	.primary {
-		padding: 3% 6% 12%;
+		padding: 4% 6% 12%;
 	}
 
 }
 
 .secondary {
-	padding: 6% 6% 12% 4%;
+	padding: 4% 6% 12% 4%;
 	width: 30%;
 }
 

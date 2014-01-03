@@ -3,10 +3,14 @@ layout: page
 title: Products
 ---
 
-<ul>
+<div class="prodmain">
 {% for pair in page.pairs %}
-  <li>
-    <a href="{{ pair[1] }}/" title="{{ pair[0] }}">{{ pair[0] }}</a>
-  </li>
+	<div class="prodcat">
+		<a class="prodimg" href="{{ pair[1] }}/" title="{{ pair[0] }}">
+			<img src="../assets/img/product-page/{{ pair[1] }}.jpg" alt="{{ pair[0] }}"/>
+			
+		</a>
+		<div class="prodimgcaption">{{ pair[0] }}</div>
+	</div>
 {% endfor %}
-</ul>
+</div>
