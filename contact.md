@@ -14,8 +14,10 @@ Raj industries
 Behind New Fruit Market,  
 Naroda Road,  
 Ahmedabad – 380025.  
-Ph.No. : 079-22202973  
-Fax : 079-22200483
+Gujarat  
+INDIA  
+Ph.No. : +91-79-2220 2973, +91-79-2220 4524  
+Fax : +91-79-2220 0483
 
 # Location
 
