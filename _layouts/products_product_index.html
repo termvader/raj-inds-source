@@ -20,14 +20,18 @@ grouptype: category
 	{% endif %}
 	<div class="prodmain">
 	{% for post in site.posts %}{% if post.category == page.category %}
-	  <div class="prodcat">
-	    <a class="prodimg" href="../../assets/img/{{ post.image }}" data-lightbox="prodimg" title="{{ post.title }}">
-	      <img src="../../assets/img/thumbs/{{ post.image }}">
-	    </a>
-	    <div class="prodimgcaption">
-	      {{ post.title }}
-	    </div>
-	  </div>
+	<div class="prodcat">
+		<a class="prodimg" href="../../assets/img/{{ post.image }}" data-lightbox="prodimg" title="{{ post.title }}"
+			{% if post.description %}
+				data-description="{{ post.description }}"
+			{% endif %}
+			>
+			<img src="../../assets/img/thumbs/{{ post.image }}">
+		</a>
+		<div class="prodimgcaption">
+			{{ post.title }}
+		</div>
+	</div>
 	{% endif %}{% endfor %}
 	</div>
   </div>
