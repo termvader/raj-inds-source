@@ -14,4 +14,4 @@ description: Quality Ornamental Cast Iron Grills
 url: http://rajindustriesamd.com
 
 keep_files:  ['.git','.svn', 'README.md', '.nojekyll', '.gitignore', '404.html', 'LICENSE.md']
-exclude: ["README.md", 'Build.bat', 'temp', 'styles2.css', '404.html', 'LICENSE.md', 'original']
+exclude: ["README.md", 'Build.bat', 'temp', 'styles2.css', '404.html', 'LICENSE.md', 'original', "Build.lnk"]
