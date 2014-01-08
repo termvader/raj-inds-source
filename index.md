@@ -14,6 +14,7 @@ page-class: page-home
     <img src="assets/img/slider/3.jpg" alt="" />
     <img src="assets/img/slider/4.jpg" alt="" />
     <img src="assets/img/slider/5.jpg" alt="" />
+    <img src="assets/img/slider/6.jpg" alt="" />
 </div>
 
 <script>
