@@ -9,9 +9,9 @@ page-class: page-home
 
 
 <div id="galleria">
-    <img src="assets/img/slider/1.jpg" alt="" />
     <img src="assets/img/slider/2.jpg" alt="" />
     <img src="assets/img/slider/3.jpg" alt="" />
+    <img src="assets/img/slider/1.jpg" alt="" />
     <img src="assets/img/slider/4.jpg" alt="" />
     <img src="assets/img/slider/5.jpg" alt="" />
     <img src="assets/img/slider/6.jpg" alt="" />
