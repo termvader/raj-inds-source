@@ -963,8 +963,8 @@ input[type=submit] {
 	outline-style: none;
 
 	-moz-box-sizing: border-box;
-    
-    
+
+
     font-weight: 400;
     line-height: 1.5em;
     margin: 10px 0;
@@ -1365,49 +1365,49 @@ nav a:focus,nav a:active {
 		box-shadow: none !important;
 		text-shadow: none !important;
 	}
-	
+
 	a,a:visited {
 		text-decoration: underline;
 	}
-	
+
 	a[href]:after {
 		content: " (" attr(href) ")";
 	}
-	
+
 	abbr[title]:after {
 		content: " (" attr(title) ")";
 	}
-	
+
 	.ir a:after,a[href^=javascript:]:after,a[href^=#]:after {
 		content: "";
 	}
-	
+
 	pre,blockquote {
 		border: 1px solid #999;
 		page-break-inside: avoid;
 	}
-	
+
 	thead {
 		display: table-header-group;
 	}
-	
+
 	tr,img {
 		page-break-inside: avoid;
 	}
-	
+
 	img {
 		max-width: 100% !important;
 	}
-	
+
 	@page {
 		margin: .5cm;
 	}
-	
+
 	p,h2,h3 {
 		orphans: 3;
 		widows: 3;
 	}
-	
+
 	h2,h3 {
 		page-break-after: avoid;
 	}
@@ -1421,7 +1421,6 @@ nav a:focus,nav a:active {
 .prodcat {
 	display: inline-block;
 	width: 220px;
-	margin: 0px 10px 5px 10px;
 	clear: both;
 	vertical-align: top;
 }
@@ -1429,7 +1428,7 @@ nav a:focus,nav a:active {
 a.prodimg {
 	text-align: center;
 	display: block;
-	
+
 	width: 158px;
 	height: 158px;
 	margin-right: auto;
